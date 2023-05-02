@@ -16,10 +16,8 @@ var corridoio = document.getElementById('terrazzo');
 
 
 var citazioni = [
-        "M'hanno spinto nella paglia, ne sono uscito pagliaccio. [J]",
-        "cit2",
-        "cit3",
-        "cit4"];
+        "M'hanno spinto nella paglia, ne sono uscito pagliaccio",
+        "Jiii ji ji ja"];
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
