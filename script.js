@@ -4,16 +4,24 @@ var days = Math.floor((currentDate - year) / (24 * 60 * 60 * 1000));
 var week = Math.ceil(( currentDate.getDay() + 1 + days) / 7);
 var weekType = week % 7;
 
-var settimana_corrente = document.getElementById('settimana_corrente');
-document.getElementById("settimana_corrente").innerHTML = week;
-var settimana_tipo = document.getElementById('settimana_tipo');
-document.getElementById("settimana_tipo").innerHTML = weekType;
+// var settimana_corrente = document.getElementById('settimana_corrente');
+// document.getElementById("settimana_corrente").innerHTML = week;
+// var settimana_tipo = document.getElementById('settimana_tipo');
+// document.getElementById("settimana_tipo").innerHTML = weekType;
 var corridoio = document.getElementById('corridoio');
 var sala1 = document.getElementById('sala1');
 var sala2 = document.getElementById('sala2');
 var cucina = document.getElementById('cucina');
 var corridoio = document.getElementById('terrazzo');
 
+
+var citazioni = [
+        "M'hanno spinto nella paglia, ne sono uscito pagliaccio. [J]",
+        "cit2",
+        "cit3",
+        "cit4"];
+var r = Math.floor(Math.random() * citazioni.length);
+document.getElementById("citazione").innerHTML = citazioni[r];
 
 
 switch (weekType) {
@@ -61,6 +69,9 @@ switch (weekType) {
   document.getElementById("cucina").innerHTML = "Dalila";
   document.getElementById("terrazzo").innerHTML = "Lumi";  break;
 }
+
+
+
 
 //var weekType = week % 7;
 
