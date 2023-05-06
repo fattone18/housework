@@ -1,8 +1,18 @@
 currentDate = new Date();
-var year = new Date(currentDate.getFullYear(), 0, 1);
-var days = Math.floor((currentDate - year) / (24 * 60 * 60 * 1000));
-var week = Math.ceil(( currentDate.getDay() + 1 + days) / 7);
-var weekType = week % 7;
+refDate = new Date('05/02/2023');
+const diffTime = Math.abs(refDate - currentDate);
+diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+
+// var year = new Date(currentDate.getFullYear(), 0, 1);
+// var days = Math.floor((currentDate - year) / (24 * 60 * 60 * 1000));
+// var week = Math.ceil(( currentDate.getDay() + 1 + days) / 7);
+var weekType = diffDays % 7;
+
+
+
+
+
 
 // var settimana_corrente = document.getElementById('settimana_corrente');
 // document.getElementById("settimana_corrente").innerHTML = week;
