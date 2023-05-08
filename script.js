@@ -1,13 +1,16 @@
 currentDate = new Date();
-refDate = new Date('05/02/2023');
-const diffTime = Math.abs(refDate - currentDate);
+// currentDate = new Date('05/10/2023');
+refDate = new Date('03/26/2023'); // month day year
+refDate = new Date('04/02/2023'); // month day year
+diffTime = Math.abs(refDate - currentDate);
 diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
 
 // var year = new Date(currentDate.getFullYear(), 0, 1);
 // var days = Math.floor((currentDate - year) / (24 * 60 * 60 * 1000));
 // var week = Math.ceil(( currentDate.getDay() + 1 + days) / 7);
-var weekType = diffDays % 7;
+//var weekType = diffDays % 7;
+var weekType = Math.floor(diffDays / 7) % 7;
 
 
 
@@ -18,11 +21,21 @@ var weekType = diffDays % 7;
 // document.getElementById("settimana_corrente").innerHTML = week;
 // var settimana_tipo = document.getElementById('settimana_tipo');
 // document.getElementById("settimana_tipo").innerHTML = weekType;
+// document.getElementById("settimana_tipo").innerHTML = weekType;
+
+document.getElementById("data_oggi").innerHTML = currentDate;
+document.getElementById("data_ref").innerHTML = refDate;
+document.getElementById("differenza_date").innerHTML = diffDays;
+document.getElementById("differenza_date_settimane").innerHTML =  Math.floor(diffDays / 7);
+document.getElementById("tipo_settimana").innerHTML = weekType;
+
 var corridoio = document.getElementById('corridoio');
 var sala1 = document.getElementById('sala1');
 var sala2 = document.getElementById('sala2');
 var cucina = document.getElementById('cucina');
 var corridoio = document.getElementById('terrazzo');
+
+
 
 
 var citazioni = [
