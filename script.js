@@ -1,7 +1,6 @@
 currentDate = new Date();
-// currentDate = new Date('05/10/2023');
-refDate = new Date('03/26/2023'); // month day year
-refDate = new Date('04/02/2023'); // month day year
+//currentDate = new Date('00:01 05/15/2023');
+refDate = new Date('04/04/2023'); // month day year
 diffTime = Math.abs(refDate - currentDate);
 diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
