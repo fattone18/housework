@@ -64,43 +64,43 @@ switch (weekType) {
     document.getElementById("sala1").innerHTML = "Cristina";
     document.getElementById("sala2").innerHTML = "Giacomo";
     document.getElementById("cucina").innerHTML = "Laila";
-    document.getElementById("terrazzo").innerHTML = "Dalila";
+    document.getElementById("terrazzo").innerHTML = "Francesca";
     break;
   case 1:
-  document.getElementById("corridoio").innerHTML = "Davide";
+  document.getElementById("corridoio").innerHTML = "Carlo";
   document.getElementById("sala1").innerHTML = "Fabio";
   document.getElementById("sala2").innerHTML = "Cristina";
   document.getElementById("cucina").innerHTML = "Giacomo";
   document.getElementById("terrazzo").innerHTML = "Laila";  break;
   case 2:
   document.getElementById("corridoio").innerHTML = "Lumi";
-  document.getElementById("sala1").innerHTML = "Davide";
+  document.getElementById("sala1").innerHTML = "Carlo";
   document.getElementById("sala2").innerHTML = "Fabio";
   document.getElementById("cucina").innerHTML = "Cristina";
   document.getElementById("terrazzo").innerHTML = "Giacomo";  break;
   case 3:
-  document.getElementById("corridoio").innerHTML = "Dalila";
+  document.getElementById("corridoio").innerHTML = "Francesca";
   document.getElementById("sala1").innerHTML = "Lumi";
-  document.getElementById("sala2").innerHTML = "Davide";
+  document.getElementById("sala2").innerHTML = "Carlo";
   document.getElementById("cucina").innerHTML = "Fabio";
   document.getElementById("terrazzo").innerHTML = "Cristina";  break;
   case 4:
   document.getElementById("corridoio").innerHTML = "Laila";
-  document.getElementById("sala1").innerHTML = "Dalila";
+  document.getElementById("sala1").innerHTML = "Francesca";
   document.getElementById("sala2").innerHTML = "Lumi";
-  document.getElementById("cucina").innerHTML = "Davide";
+  document.getElementById("cucina").innerHTML = "Carlo";
   document.getElementById("terrazzo").innerHTML = "Fabio";  break;
   case 5:
   document.getElementById("corridoio").innerHTML = "Giacomo";
   document.getElementById("sala1").innerHTML = "Laila";
-  document.getElementById("sala2").innerHTML = "Dalila";
+  document.getElementById("sala2").innerHTML = "Francesca";
   document.getElementById("cucina").innerHTML = "Lumi";
-  document.getElementById("terrazzo").innerHTML = "Davide";  break;
+  document.getElementById("terrazzo").innerHTML = "Carlo";  break;
   case 6:
   document.getElementById("corridoio").innerHTML = "Cristina";
   document.getElementById("sala1").innerHTML = "Giacomo";
   document.getElementById("sala2").innerHTML = "Laila";
-  document.getElementById("cucina").innerHTML = "Dalila";
+  document.getElementById("cucina").innerHTML = "Francesca";
   document.getElementById("terrazzo").innerHTML = "Lumi";  break;
 }
 
