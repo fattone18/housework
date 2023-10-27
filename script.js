@@ -33,6 +33,8 @@ var sala1 = document.getElementById('sala1');
 var sala2 = document.getElementById('sala2');
 var cucina = document.getElementById('cucina');
 var corridoio = document.getElementById('terrazzo');
+var jolly1 = document.getElementById('jolly1');
+var jolly2 = document.getElementById('jolly2');
 
 
 
@@ -53,6 +55,7 @@ var citazioni = [
         "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
         "Ma &#232 una zucchina?",
         "Rimango ancora celiaca",
+        "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte",
         "Facciamo ciquibum?"];
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
@@ -65,43 +68,57 @@ switch (weekType) {
     document.getElementById("sala2").innerHTML = "Giacomo";
     document.getElementById("cucina").innerHTML = "Laila";
     document.getElementById("terrazzo").innerHTML = "Francesca";
+    document.getElementById("jolly1").innerHTML = "Lumi";
+    document.getElementById("jolly2").innerHTML = "Carlo";
     break;
   case 1:
   document.getElementById("corridoio").innerHTML = "Carlo";
   document.getElementById("sala1").innerHTML = "Fabio";
   document.getElementById("sala2").innerHTML = "Cristina";
   document.getElementById("cucina").innerHTML = "Giacomo";
-  document.getElementById("terrazzo").innerHTML = "Laila";  break;
+  document.getElementById("terrazzo").innerHTML = "Laila";
+  document.getElementById("jolly1").innerHTML = "Francesca";
+  document.getElementById("jolly2").innerHTML = "Lumi";  break;
   case 2:
   document.getElementById("corridoio").innerHTML = "Lumi";
   document.getElementById("sala1").innerHTML = "Carlo";
   document.getElementById("sala2").innerHTML = "Fabio";
   document.getElementById("cucina").innerHTML = "Cristina";
-  document.getElementById("terrazzo").innerHTML = "Giacomo";  break;
+  document.getElementById("terrazzo").innerHTML = "Giacomo";
+  document.getElementById("jolly1").innerHTML = "Laila";
+  document.getElementById("jolly2").innerHTML = "Francesca";  break;
   case 3:
   document.getElementById("corridoio").innerHTML = "Francesca";
   document.getElementById("sala1").innerHTML = "Lumi";
   document.getElementById("sala2").innerHTML = "Carlo";
   document.getElementById("cucina").innerHTML = "Fabio";
-  document.getElementById("terrazzo").innerHTML = "Cristina";  break;
+  document.getElementById("terrazzo").innerHTML = "Cristina";
+  document.getElementById("jolly1").innerHTML = "Giacomo";
+  document.getElementById("jolly2").innerHTML = "Laila";  break;
   case 4:
   document.getElementById("corridoio").innerHTML = "Laila";
   document.getElementById("sala1").innerHTML = "Francesca";
   document.getElementById("sala2").innerHTML = "Lumi";
   document.getElementById("cucina").innerHTML = "Carlo";
-  document.getElementById("terrazzo").innerHTML = "Fabio";  break;
+  document.getElementById("terrazzo").innerHTML = "Fabio";
+  document.getElementById("jolly1").innerHTML = "Cristina";
+  document.getElementById("jolly2").innerHTML = "Giacomo";  break;
   case 5:
   document.getElementById("corridoio").innerHTML = "Giacomo";
   document.getElementById("sala1").innerHTML = "Laila";
   document.getElementById("sala2").innerHTML = "Francesca";
   document.getElementById("cucina").innerHTML = "Lumi";
-  document.getElementById("terrazzo").innerHTML = "Carlo";  break;
+  document.getElementById("terrazzo").innerHTML = "Carlo";
+  document.getElementById("jolly1").innerHTML = "Fabio";
+  document.getElementById("jolly2").innerHTML = "Cristina";  break;
   case 6:
   document.getElementById("corridoio").innerHTML = "Cristina";
   document.getElementById("sala1").innerHTML = "Giacomo";
   document.getElementById("sala2").innerHTML = "Laila";
   document.getElementById("cucina").innerHTML = "Francesca";
-  document.getElementById("terrazzo").innerHTML = "Lumi";  break;
+  document.getElementById("terrazzo").innerHTML = "Lumi";
+  document.getElementById("jolly1").innerHTML = "Carlo";
+  document.getElementById("jolly2").innerHTML = "Fabio";  break;
 }
 
 
