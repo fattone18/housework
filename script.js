@@ -67,7 +67,7 @@ switch (weekType) {
     document.getElementById("sala1").innerHTML = "Cristina";
     document.getElementById("sala2").innerHTML = "Giacomo";
     document.getElementById("cucina").innerHTML = "Laila";
-    document.getElementById("terrazzo").innerHTML = "Francesca";
+    document.getElementById("terrazzo").innerHTML = "Dalila";
     document.getElementById("spazzatura1").innerHTML = "Lumi";
     document.getElementById("spazzatura2").innerHTML = "Carlo";
     break;
@@ -77,7 +77,7 @@ switch (weekType) {
   document.getElementById("sala2").innerHTML = "Cristina";
   document.getElementById("cucina").innerHTML = "Giacomo";
   document.getElementById("terrazzo").innerHTML = "Laila";
-  document.getElementById("spazzatura1").innerHTML = "Francesca";
+  document.getElementById("spazzatura1").innerHTML = "Dalila";
   document.getElementById("spazzatura2").innerHTML = "Lumi";  break;
   case 2:
   document.getElementById("corridoio").innerHTML = "Lumi";
@@ -86,9 +86,9 @@ switch (weekType) {
   document.getElementById("cucina").innerHTML = "Cristina";
   document.getElementById("terrazzo").innerHTML = "Giacomo";
   document.getElementById("spazzatura1").innerHTML = "Laila";
-  document.getElementById("spazzatura2").innerHTML = "Francesca";  break;
+  document.getElementById("spazzatura2").innerHTML = "Dalila";  break;
   case 3:
-  document.getElementById("corridoio").innerHTML = "Francesca";
+  document.getElementById("corridoio").innerHTML = "Dalila";
   document.getElementById("sala1").innerHTML = "Lumi";
   document.getElementById("sala2").innerHTML = "Carlo";
   document.getElementById("cucina").innerHTML = "Fabio";
@@ -97,7 +97,7 @@ switch (weekType) {
   document.getElementById("spazzatura2").innerHTML = "Laila";  break;
   case 4:
   document.getElementById("corridoio").innerHTML = "Laila";
-  document.getElementById("sala1").innerHTML = "Francesca";
+  document.getElementById("sala1").innerHTML = "Dalila";
   document.getElementById("sala2").innerHTML = "Lumi";
   document.getElementById("cucina").innerHTML = "Carlo";
   document.getElementById("terrazzo").innerHTML = "Fabio";
@@ -106,7 +106,7 @@ switch (weekType) {
   case 5:
   document.getElementById("corridoio").innerHTML = "Giacomo";
   document.getElementById("sala1").innerHTML = "Laila";
-  document.getElementById("sala2").innerHTML = "Francesca";
+  document.getElementById("sala2").innerHTML = "Dalila";
   document.getElementById("cucina").innerHTML = "Lumi";
   document.getElementById("terrazzo").innerHTML = "Carlo";
   document.getElementById("spazzatura1").innerHTML = "Fabio";
@@ -115,7 +115,7 @@ switch (weekType) {
   document.getElementById("corridoio").innerHTML = "Cristina";
   document.getElementById("sala1").innerHTML = "Giacomo";
   document.getElementById("sala2").innerHTML = "Laila";
-  document.getElementById("cucina").innerHTML = "Francesca";
+  document.getElementById("cucina").innerHTML = "Dalila";
   document.getElementById("terrazzo").innerHTML = "Lumi";
   document.getElementById("spazzatura1").innerHTML = "Carlo";
   document.getElementById("spazzatura2").innerHTML = "Fabio";  break;
