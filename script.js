@@ -41,11 +41,8 @@ var spazzatura2 = document.getElementById('spazzatura2');
 
 var citazioni = [
         "Mi hanno spinto nella paglia, ne sono uscito pagliaccio",
-        "Jiiii ji ji jaaa",
         "Studia di meno, scopa di pi&#250",
-        "&#200 l&#8217ora delle canne",
         "Perch&#233 come disse mio zio sordomuto...",
-        "Mi dia due etti di pomeriggio",
         "Porco dio",
         "La vita &#232 come un pacco di farina. Su un&#8217isola sperduta. Senza cibo. E tu sei celiaco porco dio.",
         "Vuoi sapere come si tiene sulle spine un down?",
@@ -53,10 +50,7 @@ var citazioni = [
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
         "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
-        "Ma &#232 una zucchina?",
-        "Rimango ancora celiaca",
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte",
-        "Facciamo ciquibum?"];
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
