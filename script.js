@@ -51,6 +51,7 @@ var citazioni = [
         "Dio schifoso scarafaggio distributore di handicap",
         "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte";
+]
         
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
