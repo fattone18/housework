@@ -32,7 +32,7 @@ var corridoio = document.getElementById('corridoio');
 var sala1 = document.getElementById('sala1');
 var sala2 = document.getElementById('sala2');
 var cucina = document.getElementById('cucina');
-var corridoio = document.getElementById('terrazzo');
+var terrazzo = document.getElementById('terrazzo');
 var spazzatura1 = document.getElementById('spazzatura1');
 var spazzatura2 = document.getElementById('spazzatura2');
 
