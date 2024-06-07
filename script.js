@@ -49,6 +49,13 @@ var citazioni = [
         "Del maiale non si butta via niente, per questo conservo con cura il mio crocifisso",
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
+        "Fabio Diavolo sei stato h4ckerat0",
         "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte"
 ];
