@@ -49,13 +49,6 @@ var citazioni = [
         "Del maiale non si butta via niente, per questo conservo con cura il mio crocifisso",
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
-        "Fabio Diavolo sei stato h4ckerat0",
         "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte"
 ];
@@ -71,7 +64,7 @@ switch (weekType) {
     document.getElementById("sala2").innerHTML = "Giacomo";
     document.getElementById("cucina").innerHTML = "Martina";
     document.getElementById("terrazzo").innerHTML = "Dalila";
-    document.getElementById("spazzatura1").innerHTML = "Lumi";
+    document.getElementById("spazzatura1").innerHTML = "Festim";
     document.getElementById("spazzatura2").innerHTML = "Carlo";
     break;
   case 1:
@@ -81,9 +74,9 @@ switch (weekType) {
   document.getElementById("cucina").innerHTML = "Giacomo";
   document.getElementById("terrazzo").innerHTML = "Martina";
   document.getElementById("spazzatura1").innerHTML = "Dalila";
-  document.getElementById("spazzatura2").innerHTML = "Lumi";  break;
+  document.getElementById("spazzatura2").innerHTML = "Festim";  break;
   case 2:
-  document.getElementById("corridoio").innerHTML = "Lumi";
+  document.getElementById("corridoio").innerHTML = "Festim";
   document.getElementById("sala1").innerHTML = "Carlo";
   document.getElementById("sala2").innerHTML = "Fabio";
   document.getElementById("cucina").innerHTML = "Cristina";
@@ -92,7 +85,7 @@ switch (weekType) {
   document.getElementById("spazzatura2").innerHTML = "Dalila";  break;
   case 3:
   document.getElementById("corridoio").innerHTML = "Dalila";
-  document.getElementById("sala1").innerHTML = "Lumi";
+  document.getElementById("sala1").innerHTML = "Festim";
   document.getElementById("sala2").innerHTML = "Carlo";
   document.getElementById("cucina").innerHTML = "Fabio";
   document.getElementById("terrazzo").innerHTML = "Cristina";
@@ -110,7 +103,7 @@ switch (weekType) {
   document.getElementById("corridoio").innerHTML = "Giacomo";
   document.getElementById("sala1").innerHTML = "Martina";
   document.getElementById("sala2").innerHTML = "Dalila";
-  document.getElementById("cucina").innerHTML = "Lumi";
+  document.getElementById("cucina").innerHTML = "Festim";
   document.getElementById("terrazzo").innerHTML = "Carlo";
   document.getElementById("spazzatura1").innerHTML = "Fabio";
   document.getElementById("spazzatura2").innerHTML = "Cristina";  break;
@@ -119,7 +112,7 @@ switch (weekType) {
   document.getElementById("sala1").innerHTML = "Giacomo";
   document.getElementById("sala2").innerHTML = "Martina";
   document.getElementById("cucina").innerHTML = "Dalila";
-  document.getElementById("terrazzo").innerHTML = "Lumi";
+  document.getElementById("terrazzo").innerHTML = "Festim";
   document.getElementById("spazzatura1").innerHTML = "Carlo";
   document.getElementById("spazzatura2").innerHTML = "Fabio";  break;
 }
