@@ -94,7 +94,7 @@ switch (weekType) {
   case 4:
   document.getElementById("corridoio").innerHTML = "Martina";
   document.getElementById("sala1").innerHTML = "Dalila";
-  document.getElementById("sala2").innerHTML = "Lumi";
+  document.getElementById("sala2").innerHTML = "Festim";
   document.getElementById("cucina").innerHTML = "Carlo";
   document.getElementById("terrazzo").innerHTML = "Fabio";
   document.getElementById("spazzatura1").innerHTML = "Cristina";
