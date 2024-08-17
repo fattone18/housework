@@ -56,6 +56,7 @@ var citazioni = [
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
+/*
 var p1 = new String("Fabio");
 var p2 = new String("Teresa");
 var p3 = new String("Giacomo");
@@ -63,7 +64,7 @@ var p4 = new String("Martina");
 var p5 = new String("Dalila");
 var p6 = new String("Festim");
 var p7 = new String("Carlo");
-
+*/
 
 switch (weekType) {
         case 0:
@@ -76,7 +77,7 @@ switch (weekType) {
                 document.getElementById("spazzatura2").innerHTML = "Carlo";
                 break;
         case 1:
-                /*
+                
                 document.getElementById("corridoio").innerHTML = "Carlo";
                 document.getElementById("sala1").innerHTML = "Fabio";
                 document.getElementById("sala2").innerHTML = "Teresa";
@@ -85,8 +86,8 @@ switch (weekType) {
                 document.getElementById("spazzatura1").innerHTML = "Dalila";
                 document.getElementById("spazzatura2").innerHTML = "Festim";  
                 break;
-                */
-
+                
+                /*
                 document.getElementById("corridoio").innerHTML = p7;
                 document.getElementById("sala1").innerHTML = p1;
                 document.getElementById("sala2").innerHTML = p2;
@@ -95,6 +96,7 @@ switch (weekType) {
                 document.getElementById("spazzatura1").innerHTML = p5;
                 document.getElementById("spazzatura2").innerHTML = p6;  
                 break;
+                */
 
         case 2:
                 document.getElementById("corridoio").innerHTML = "Festim";
