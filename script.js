@@ -76,6 +76,7 @@ switch (weekType) {
                 document.getElementById("spazzatura2").innerHTML = "Carlo";
                 break;
         case 1:
+                /*
                 document.getElementById("corridoio").innerHTML = "Carlo";
                 document.getElementById("sala1").innerHTML = "Fabio";
                 document.getElementById("sala2").innerHTML = "Teresa";
@@ -83,6 +84,16 @@ switch (weekType) {
                 document.getElementById("terrazzo").innerHTML = "Martina";
                 document.getElementById("spazzatura1").innerHTML = "Dalila";
                 document.getElementById("spazzatura2").innerHTML = "Festim";  
+                break;
+                */
+
+                document.getElementById("corridoio").innerHTML = p7;
+                document.getElementById("sala1").innerHTML = p1;
+                document.getElementById("sala2").innerHTML = p2;
+                document.getElementById("cucina").innerHTML = p3;
+                document.getElementById("terrazzo").innerHTML = p4;
+                document.getElementById("spazzatura1").innerHTML = p5;
+                document.getElementById("spazzatura2").innerHTML = p6;  
                 break;
 
         case 2:
