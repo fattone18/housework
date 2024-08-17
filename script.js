@@ -56,7 +56,7 @@ var citazioni = [
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
-var p1 = new String("Fabio");
+//var p1 = new String("Fabio");
 
 
 switch (weekType) {
