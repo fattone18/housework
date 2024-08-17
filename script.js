@@ -71,8 +71,8 @@ switch (weekType) {
     break;
   case 1:
   document.getElementById("corridoio").innerHTML = "Carlo";
-  //document.getElementById("sala1").innerHTML = "Fabio";
-  document.getElementById("sala1").innerHTML = p1;
+  document.getElementById("sala1").innerHTML = "Fabio";
+  //document.getElementById("sala1").innerHTML = p1;
   document.getElementById("sala2").innerHTML = "Teresa";
   document.getElementById("cucina").innerHTML = "Giacomo";
   document.getElementById("terrazzo").innerHTML = "Martina";
