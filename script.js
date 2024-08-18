@@ -65,25 +65,34 @@ var p6 = new String("Festim");
 var p7 = new String("Carlo");
 */
 
+var p1 = new String("Fabio");
+var p2 = new String("Teresa");
+var p3 = new String("Giacomo");
+var p4 = new String("Martina");
+var p5 = new String("Dalila");
+var p6 = new String("Festim");
+var p7 = new String("Carlo");
+
+
 switch (weekType) {
         case 0:
-                document.getElementById("corridoio").innerHTML = "Fabio";
-                document.getElementById("sala1").innerHTML = "Teresa";
-                document.getElementById("sala2").innerHTML = "Giacomo";
-                document.getElementById("cucina").innerHTML = "Martina";
-                document.getElementById("terrazzo").innerHTML = "Dalila";
-                document.getElementById("spazzatura1").innerHTML = "Festim";
-                document.getElementById("spazzatura2").innerHTML = "Carlo";
+                document.getElementById("corridoio").innerHTML = p1;
+                document.getElementById("sala1").innerHTML = p2;
+                document.getElementById("sala2").innerHTML = p3;
+                document.getElementById("cucina").innerHTML = p4;
+                document.getElementById("terrazzo").innerHTML = p5;
+                document.getElementById("spazzatura1").innerHTML = p6;
+                document.getElementById("spazzatura2").innerHTML = p7;
                 break;
         case 1:
                 
-                document.getElementById("corridoio").innerHTML = "Carlo";
-                document.getElementById("sala1").innerHTML = "Fabio";
-                document.getElementById("sala2").innerHTML = "Teresa";
-                document.getElementById("cucina").innerHTML = "Giacomo";
-                document.getElementById("terrazzo").innerHTML = "Martina";
-                document.getElementById("spazzatura1").innerHTML = "Dalila";
-                document.getElementById("spazzatura2").innerHTML = "Festim";  
+                document.getElementById("corridoio").innerHTML = p7;
+                document.getElementById("sala1").innerHTML = p1;
+                document.getElementById("sala2").innerHTML = p2;
+                document.getElementById("cucina").innerHTML = p3;
+                document.getElementById("terrazzo").innerHTML = p4;
+                document.getElementById("spazzatura1").innerHTML = p5;
+                document.getElementById("spazzatura2").innerHTML = p6;  
                 break;
                 
                 /*
@@ -98,49 +107,49 @@ switch (weekType) {
                 */
 
         case 2:
-                document.getElementById("corridoio").innerHTML = "Festim";
-                document.getElementById("sala1").innerHTML = "Carlo";
-                document.getElementById("sala2").innerHTML = "Fabio";
-                document.getElementById("cucina").innerHTML = "Teresa";
-                document.getElementById("terrazzo").innerHTML = "Giacomo";
-                document.getElementById("spazzatura1").innerHTML = "Martina";
-                document.getElementById("spazzatura2").innerHTML = "Dalila";  
+                document.getElementById("corridoio").innerHTML = p6;
+                document.getElementById("sala1").innerHTML = p7;
+                document.getElementById("sala2").innerHTML = p1;
+                document.getElementById("cucina").innerHTML = p2;
+                document.getElementById("terrazzo").innerHTML = p3;
+                document.getElementById("spazzatura1").innerHTML = p4;
+                document.getElementById("spazzatura2").innerHTML = p5;  
                 break;
         case 3:
-                document.getElementById("corridoio").innerHTML = "Dalila";
-                document.getElementById("sala1").innerHTML = "Festim";
-                document.getElementById("sala2").innerHTML = "Carlo";
-                document.getElementById("cucina").innerHTML = "Fabio";
-                document.getElementById("terrazzo").innerHTML = "Teresa";
-                document.getElementById("spazzatura1").innerHTML = "Giacomo";
-                document.getElementById("spazzatura2").innerHTML = "Martina";  
+                document.getElementById("corridoio").innerHTML = p5;
+                document.getElementById("sala1").innerHTML = p6;
+                document.getElementById("sala2").innerHTML = p7;
+                document.getElementById("cucina").innerHTML = p1;
+                document.getElementById("terrazzo").innerHTML = p2;
+                document.getElementById("spazzatura1").innerHTML = p3;
+                document.getElementById("spazzatura2").innerHTML = p4;  
                 break;
         case 4:
-                document.getElementById("corridoio").innerHTML = "Martina";
-                document.getElementById("sala1").innerHTML = "Dalila";
-                document.getElementById("sala2").innerHTML = "Festim";
-                document.getElementById("cucina").innerHTML = "Carlo";
-                document.getElementById("terrazzo").innerHTML = "Fabio";
-                document.getElementById("spazzatura1").innerHTML = "Teresa";
-                document.getElementById("spazzatura2").innerHTML = "Giacomo";  
+                document.getElementById("corridoio").innerHTML = p4;
+                document.getElementById("sala1").innerHTML = p5;
+                document.getElementById("sala2").innerHTML = p6;
+                document.getElementById("cucina").innerHTML = p7;
+                document.getElementById("terrazzo").innerHTML = p1;
+                document.getElementById("spazzatura1").innerHTML = p2;
+                document.getElementById("spazzatura2").innerHTML = p3;  
                 break;
         case 5:
-                document.getElementById("corridoio").innerHTML = "Giacomo";
-                document.getElementById("sala1").innerHTML = "Martina";
-                document.getElementById("sala2").innerHTML = "Dalila";
-                document.getElementById("cucina").innerHTML = "Festim";
-                document.getElementById("terrazzo").innerHTML = "Carlo";
-                document.getElementById("spazzatura1").innerHTML = "Fabio";
-                document.getElementById("spazzatura2").innerHTML = "Teresa";  
+                document.getElementById("corridoio").innerHTML = p3;
+                document.getElementById("sala1").innerHTML = p4;
+                document.getElementById("sala2").innerHTML = p5;
+                document.getElementById("cucina").innerHTML = p6;
+                document.getElementById("terrazzo").innerHTML = p7;
+                document.getElementById("spazzatura1").innerHTML = p1;
+                document.getElementById("spazzatura2").innerHTML = p2;  
                 break;
         case 6:
-                document.getElementById("corridoio").innerHTML = "Teresa";
-                document.getElementById("sala1").innerHTML = "Giacomo";
-                document.getElementById("sala2").innerHTML = "Martina";
-                document.getElementById("cucina").innerHTML = "Dalila";
-                document.getElementById("terrazzo").innerHTML = "Festim";
-                document.getElementById("spazzatura1").innerHTML = "Carlo";
-                document.getElementById("spazzatura2").innerHTML = "Fabio";  break;
+                document.getElementById("corridoio").innerHTML = p2;
+                document.getElementById("sala1").innerHTML = p3;
+                document.getElementById("sala2").innerHTML = p4;
+                document.getElementById("cucina").innerHTML = p5;
+                document.getElementById("terrazzo").innerHTML = p6;
+                document.getElementById("spazzatura1").innerHTML = p7;
+                document.getElementById("spazzatura2").innerHTML = p1;  break;
 }
 
 
