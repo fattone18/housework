@@ -39,7 +39,7 @@ var spazzatura2 = document.getElementById('spazzatura2');
 
 
 var citazioni = [
-        "Mi hanno spinto nella paglia, ne sono uscito pagliaccio",
+        /*"Mi hanno spinto nella paglia, ne sono uscito pagliaccio",
         "Studia di meno, scopa di pi&#250",
         "Perch&#233 come disse mio zio sordomuto...",
         "Porco dio",
@@ -48,7 +48,7 @@ var citazioni = [
         "Del maiale non si butta via niente, per questo conservo con cura il mio crocifisso",
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
-        "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
+        "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",*/
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte"
 ];
         
