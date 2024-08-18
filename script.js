@@ -38,7 +38,6 @@ var spazzatura2 = document.getElementById('spazzatura2');
 
 
 
-
 var citazioni = [
         "Mi hanno spinto nella paglia, ne sono uscito pagliaccio",
         "Studia di meno, scopa di pi&#250",
