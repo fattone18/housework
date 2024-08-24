@@ -1,10 +1,27 @@
+
 currentDate = new Date();
 //currentDate = new Date('00:01 05/15/2023');
 refDate = new Date('04/04/2023'); // month day year
 diffTime = Math.abs(refDate - currentDate);
 diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
+
+// var year = new Date(currentDate.getFullYear(), 0, 1);
+// var days = Math.floor((currentDate - year) / (24 * 60 * 60 * 1000));
+// var week = Math.ceil(( currentDate.getDay() + 1 + days) / 7);
+//var weekType = diffDays % 7;
 var weekType = Math.floor(diffDays / 7) % 7;
+
+
+
+
+
+
+// var settimana_corrente = document.getElementById('settimana_corrente');
+// document.getElementById("settimana_corrente").innerHTML = week;
+// var settimana_tipo = document.getElementById('settimana_tipo');
+// document.getElementById("settimana_tipo").innerHTML = weekType;
+// document.getElementById("settimana_tipo").innerHTML = weekType;
 
 document.getElementById("data_oggi").innerHTML = currentDate;
 document.getElementById("data_ref").innerHTML = refDate;
@@ -19,6 +36,8 @@ var cucina = document.getElementById('cucina');
 var terrazzo = document.getElementById('terrazzo');
 var spazzatura1 = document.getElementById('spazzatura1');
 var spazzatura2 = document.getElementById('spazzatura2');
+
+
 
 var citazioni = [
         "Mi hanno spinto nella paglia, ne sono uscito pagliaccio",
@@ -37,13 +56,25 @@ var citazioni = [
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
+/*
 var p1 = new String("Fabio");
 var p2 = new String("Teresa");
 var p3 = new String("Giacomo");
 var p4 = new String("Martina");
+var p5 = new String("Dalila");
+var p6 = new String("Festim");
+var p7 = new String("Carlo");
+*/
+
+var p1 = new String("Fabio");
+var p2 = new String("Teresa");
+var p3 = new String("Giacomo");
+var p4 = new String("Martina");
+// var p5 = new String("Dalila");
 var p5 = new String("??");
 var p6 = new String("Festim");
 var p7 = new String("Carlo");
+
 
 switch (weekType) {
         case 0:
@@ -55,7 +86,8 @@ switch (weekType) {
                 document.getElementById("spazzatura1").innerHTML = p6;
                 document.getElementById("spazzatura2").innerHTML = p7;
                 break;
-        case 1:                
+        case 1:
+                
                 document.getElementById("corridoio").innerHTML = p7;
                 document.getElementById("sala1").innerHTML = p1;
                 document.getElementById("sala2").innerHTML = p2;
@@ -64,6 +96,18 @@ switch (weekType) {
                 document.getElementById("spazzatura1").innerHTML = p5;
                 document.getElementById("spazzatura2").innerHTML = p6;  
                 break;
+                
+                /*
+                document.getElementById("corridoio").innerHTML = p7;
+                document.getElementById("sala1").innerHTML = p1;
+                document.getElementById("sala2").innerHTML = p2;
+                document.getElementById("cucina").innerHTML = p3;
+                document.getElementById("terrazzo").innerHTML = p4;
+                document.getElementById("spazzatura1").innerHTML = p5;
+                document.getElementById("spazzatura2").innerHTML = p6;  
+                break;
+                */
+
         case 2:
                 document.getElementById("corridoio").innerHTML = p6;
                 document.getElementById("sala1").innerHTML = p7;
@@ -109,6 +153,11 @@ switch (weekType) {
                 document.getElementById("spazzatura1").innerHTML = p7;
                 document.getElementById("spazzatura2").innerHTML = p1;  break;
 }
+
+
+
+
+//var weekType = week % 7;
 
 //document.getElementById("settimana_corrente").innerHTML = week;
 
