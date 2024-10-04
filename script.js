@@ -39,9 +39,9 @@ document.getElementById("citazione").innerHTML = citazioni[r];
 
 var p1 = new String("Fabio");
 var p2 = new String("Teresa");
-var p3 = new String("Giacomo");
-var p4 = new String("Martina1");
-var p5 = new String("Martina2");
+var p3 = new String("Alessandro");
+var p4 = new String("Tina");
+var p5 = new String("Marty");
 var p6 = new String("Festim");
 var p7 = new String("Carlo");
 
@@ -107,5 +107,6 @@ switch (weekType) {
                 document.getElementById("cucina").innerHTML = p5;
                 document.getElementById("terrazzo").innerHTML = p6;
                 document.getElementById("spazzatura1").innerHTML = p7;
-                document.getElementById("spazzatura2").innerHTML = p1;  break;
+                document.getElementById("spazzatura2").innerHTML = p1;  
+                break;
 }
