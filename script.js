@@ -30,7 +30,6 @@ var citazioni = [
         "Del maiale non si butta via niente, per questo conservo con cura il mio crocifisso",
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
-        "Dopo la nostalgia, il collo è la parte pi&#250 debole dell&#8217uomo",
         "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte"
 ];
         
@@ -40,8 +39,8 @@ document.getElementById("citazione").innerHTML = citazioni[r];
 var p1 = new String("Fabio");
 var p2 = new String("Teresa");
 var p3 = new String("Alessandro");
-var p4 = new String("Tina");
-var p5 = new String("Marty");
+var p4 = new String("Martina");
+var p5 = new String("Rim");
 var p6 = new String("Festim");
 var p7 = new String("Carlo");
 
