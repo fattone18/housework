@@ -30,7 +30,13 @@ var citazioni = [
         "Del maiale non si butta via niente, per questo conservo con cura il mio crocifisso",
         "Noi ridiamo e scherziamo, ma dovremmo prima scherzare e poi ridere...",
         "Dio schifoso scarafaggio distributore di handicap",
-        "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte"
+        "La vita &#232 come un milkshake: quando hai il latte non hai il gelato, quando hai il gelato non hai il latte",
+        "Per un mondo più unito ritorna zio Benito",
+        "&#200 regolare",
+        "Serial chiller",
+        "Patti lunghi amicizia chiara",
+        "Da piccola prendevo le palle in faccia, ho frequentato molto la parrocchia",
+        "&#8220Dio latte&#8221 non è una bestemmia"
 ];
         
 var r = Math.floor(Math.random() * citazioni.length);
