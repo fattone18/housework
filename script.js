@@ -41,22 +41,14 @@ var citazioni = [
         
 var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
-/*
+
 var p1 = new String("Fabio");
 var p2 = new String("Terry");
-var p3 = new String("Jackie");
+var p3 = new String("Jack");
 var p4 = new String("Marty");
 var p5 = new String("Rim");
 var p6 = new String("Festim");
 var p7 = new String("Barlo");
-*/
-var p1 = new String("Festim");
-var p2 = new String("Festim");
-var p3 = new String("Festim");
-var p4 = new String("Festim");
-var p5 = new String("Festim");
-var p6 = new String("Festim");
-var p7 = new String("Festim");
 
 switch (weekType) {
         case 0:
