@@ -48,7 +48,7 @@ var p3 = new String("Jack");
 var p4 = new String("Marty");
 var p5 = new String("Arianna");
 var p6 = new String("Festim");
-var p7 = new String("Barlo");
+var p7 = new String("Filippo");
 
 switch (weekType) {
         case 0:
