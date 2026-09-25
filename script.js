@@ -43,11 +43,11 @@ var r = Math.floor(Math.random() * citazioni.length);
 document.getElementById("citazione").innerHTML = citazioni[r];
 
 var p1 = new String("Fabio");
-var p2 = new String("Terry");
-var p3 = new String("Jack");
+var p2 = new String("Giorgia");
+var p3 = new String("Festim");
 var p4 = new String("Marty");
-var p5 = new String("Arianna");
-var p6 = new String("Festim");
+var p5 = new String("Benedetta");
+var p6 = new String("Jack");
 var p7 = new String("Filippo");
 
 switch (weekType) {
