@@ -36,7 +36,7 @@ var citazioni = [
         "Serial chiller",
         "Patti lunghi amicizia chiara",
         "Da piccola prendevo le palle in faccia, ho frequentato molto la parrocchia",
-        "&#8220Dio latte&#8221 non è una bestemmia"
+        "&#8220Dio latte&#8221 non è una bestemmia",
         "Ho preso un razzo nelle chiappone"
 ];
         
